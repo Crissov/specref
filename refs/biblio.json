@@ -973,6 +973,9 @@
     "EMAIL": {
         "aliasOf": "RFC5322"
     },
+    "EMOJI": {
+        "aliasOf": "UTS51"
+    },
     "EPUB-SSV": {
         "href": "http://www.idpf.org/epub/vocab/structure/",
         "title": "EPUB Structural Semantics Vocabulary",
@@ -2298,15 +2301,7 @@
         "publisher": "Unicode Consortium"
     },
     "UTR51": {
-        "authors": [
-            "Mark Davis",
-            "Peter Edberg"
-        ],
-        "href": "http://www.unicode.org/reports/tr51/tr51-9.html",
-        "title": "Unicode Emoji 4.0",
-        "date": "22 November 2016",
-        "status": "Unicode Technical Report #51",
-        "publisher": "Unicode Consortium"
+        "aliasOf": "UTS51"
     },
     "UTS10": {
         "authors": [
@@ -2336,11 +2331,46 @@
             "Mark Davis",
             "Peter Edberg"
         ],
-        "href": "http://www.unicode.org/reports/tr51/tr51-11.html",
+        "href": "http://www.unicode.org/reports/tr51/",
         "title": "Unicode Emoji",
-        "date": "27 March 2017",
         "status": "Unicode Technical Standard #51",
-        "publisher": "Unicode Consortium"
+        "publisher": "Unicode Consortium",
+        "versions": {
+            "1.0": {
+	        "href": "http://www.unicode.org/reports/tr51/tr51-3-archive.html",
+        	"title": "Unicode Emoji 1.0",
+	        "status": "Unicode Technical Report #51",
+        	"date": "9 June 2015",
+                "rawDate": "2015-06-09"
+            },
+            "2.0": {
+	        "href": "http://www.unicode.org/reports/tr51/tr51-5-archive.html",
+        	"title": "Unicode Emoji 2.0",
+	        "status": "Unicode Technical Report #51",
+        	"date": "12 November 2017",
+                "rawDate": "2015-11-12"
+            },
+            "3.0": {
+	        "href": "http://www.unicode.org/reports/tr51/tr51-7.html",
+        	"title": "Unicode Emoji 3.0",
+	        "status": "Unicode Technical Report #51",
+        	"date": "3 June 2016",
+                "rawDate": "2016-06-03"
+            },
+            "4.0": {
+	        "href": "http://www.unicode.org/reports/tr51/tr51-9.html",
+        	"title": "Unicode Emoji 4.0",
+	        "status": "Unicode Technical Report #51",
+        	"date": "22 November 2017",
+                "rawDate": "2016-11-22"
+            },
+            "5.0": {
+	        "href": "http://www.unicode.org/reports/tr51/tr51-11.html",
+        	"title": "Unicode Emoji 5.0",
+        	"date": "27 March 2017",
+                "rawDate": "2017-03-27"
+            }
+        }
     },
     "VTT708": {
         "title": "Conversion of 608/708 captions to WebVTT",
