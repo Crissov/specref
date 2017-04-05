@@ -1679,6 +1679,18 @@
     "ORIGIN": {
         "aliasOf": "RFC6454"
     },
+    "OTF": {
+        "title": "OpenType specification",
+        "publisher": "Microsoft",
+        "href": "https://www.microsoft.com/en-us/Typography/OpenTypeSpecification.aspx"
+    },
+    "OTF-FEATURE": {
+        "title": "OpenType Feature File Specification",
+        "publisher": "Adobe",
+		"date": "12 April 2016",
+		"status": "version 1.19",
+        "href": "http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html"
+    },
     "OWL-RL-in-RIF": {
         "aliasOf": "rif-owl-rl"
     },
@@ -2201,7 +2213,7 @@
     "UAX29": {
         "authors": [
             "Mark Davis",
-	    "Laurențiu Iancu"
+	   		"Laurențiu Iancu"
         ],
         "href": "http://www.unicode.org/reports/tr29/tr29-29.html",
         "title": "Unicode Text Segmentation",
